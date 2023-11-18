@@ -1,0 +1,140 @@
+@import url("/static/theme.dark.css");
+
+.uni-mask {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.uni-toast {
+    padding: 0 30px !important;
+    background: rgb(17, 17, 17);
+}
+
+.no-select {
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.uni-forms-item.is-direction-top .uni-forms-item__label {
+    padding-bottom: 0px;
+    height: 33px;
+}
+
+.file-picker__progress {
+    display: none;
+}
+
+.uni-forms-item {
+    margin-bottom: 10px;
+}
+
+.uni-section-header {
+    padding: 0;
+}
+
+uni-slider {
+    margin: 10px 0;
+}
+
+uni-app, uni-page, uni-page-wrapper, uni-page-body {
+    height: 100%;
+}
+
+.uni-searchbar {
+    padding: inherit !important;
+}
+
+.uni-searchbar__box {
+    background-color: transparent !important;
+}
+
+.uni-toast {
+    padding: 0 20px;
+    width: auto;
+}
+
+.uni-input-placeholder {
+    color: inherit;
+    opacity: 0.6;
+}
+
+.uni-textarea-placeholder {
+    color: inherit;
+    opacity: 0.6;
+}
+
+page {
+    width: 100%;
+    height: 100%;
+		background: #121212;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgb(68, 68, 68);
+    border-radius: 10px;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.hide-scrollbar::-webkit-scrollbar-track {
+    height: 0;
+    width: 0;
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+    height: 0;
+    width: 0;
+}
+
+uni-input, uni-textarea {
+    font-size: inherit;
+}
+
+.line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.is-direction-left.uni-forms-item {
+    align-items: center;
+}

@@ -1,0 +1,247 @@
+/**
+ * 这里是uni-app内置的常用样式变量!
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.uni-easyinput__content {
+    height: 100%;
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+.uni-easyinput__placeholder-class {
+    font-size: inherit !important;
+}
+.uni-easyinput__content-input {
+    height: 100% !important;
+}
+.uni-combox {
+}
+.text-lighten {
+    color: #CED3DB;
+}
+.uni-combox__selector {
+    background-color: rgba(39, 39, 39, 1) !important;
+}
+.uni-combox__selector-item:hover {
+    background-color: rgba(39, 39, 39, 0.8);
+}
+uni-button[type='primary'] {
+    color: inherit;
+    background-color: rgb(255, 255, 255, 0.06);
+    transition: background-color 0.3s;
+}
+.button-hover[type='primary'] {
+    color: inherit;
+    background-color: rgb(255, 255, 255, 0.1);
+    transition: background-color 0.3s;
+}
+.uni-input-input {
+}
+.text-black {
+    color: #000;
+}
+.bg-black {
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-white {
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.text-gray-900 {
+    --tw-text-opacity: 0.9;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-gray-300 {
+    --tw-text-opacity: 0.3;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.uni-popup uni-view uni-view[name=mask] {
+    /*background-color: rgba(0, 0, 0, 0.8) !important;*/
+}
+.uni-popup uni-view uni-view[name=content] {
+    border-radius: 50px;
+}
+.bg-panel {
+    background-color: rgb(38, 38, 38);
+}
+.bg-operator {
+    background-color: rgb(47, 47, 47);
+}
+.bg-page {
+    background-color: #121212;
+}
+.text-white {
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.divide-y {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.border-white {
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+.uni-section {
+    background: none !important;
+}
+.uni-section .uni-section-header__content {
+    color: inherit !important;
+}
+.uni-section-header__content uni-text{
+    color: inherit !important;
+}
+.uni-forms-item__label {
+    color: inherit !important;
+}
+.uni-slider .uni-slider-handle-wrapper {
+    height: 3px;
+}
+.uni-section .uni-section-header {
+    padding-left: 0 !important;
+}
+.bg-gray-200 {
+    background: rgb(55,55,55);
+}
+uni-button[disabled][type='default'], uni-button[disabled]:not([type]), uni-button[disabled][type='primary'] {
+    background: #ffffff0d;
+    color: #969696;
+}
+.uni-modal {
+    color: #fff;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+.uni-modal__bd, .uni-modal__btn_default {
+    color: #fff !important;
+}
+.uni-modal__btn:after, .uni-modal__ft:after {
+    border: none;
+}
+.uni-modal__btn:active {
+    background-color: rgb(30, 30, 30);
+}
+.uni-mask {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+.uni-toast {
+    padding: 0 30px !important;
+    background: rgb(17, 17, 17);
+}
+.no-select {
+    moz-user-select: -moz-none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+.uni-forms-item.is-direction-top .uni-forms-item__label {
+    padding-bottom: 0px;
+    height: 33px;
+}
+.file-picker__progress {
+    display: none;
+}
+.uni-forms-item {
+    margin-bottom: 10px;
+}
+.uni-section-header {
+    padding: 0;
+}
+uni-slider {
+    margin: 10px 0;
+}
+uni-app, uni-page, uni-page-wrapper, uni-page-body {
+    height: 100%;
+}
+.uni-searchbar {
+    padding: inherit !important;
+}
+.uni-searchbar__box {
+    background-color: transparent !important;
+}
+.uni-toast {
+    padding: 0 20px;
+    width: auto;
+}
+.uni-input-placeholder {
+    color: inherit;
+    opacity: 0.6;
+}
+.uni-textarea-placeholder {
+    color: inherit;
+    opacity: 0.6;
+}
+page {
+    width: 100%;
+    height: 100%;
+		background: #121212;
+}
+.page {
+    width: 100vw;
+    height: 100vh;
+}
+page {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:active {
+    background: rgb(68, 68, 68);
+    border-radius: 10px;
+}
+.hide-scrollbar::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+.hide-scrollbar::-webkit-scrollbar-track {
+    height: 0;
+    width: 0;
+}
+.hide-scrollbar::-webkit-scrollbar-thumb {
+    height: 0;
+    width: 0;
+}
+uni-input, uni-textarea {
+    font-size: inherit;
+}
+.line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.is-direction-left.uni-forms-item {
+    align-items: center;
+}

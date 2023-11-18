@@ -1,0 +1,1 @@
+<view class="module tw-pt-5 tw-pb-1" style="{{e}}"><view class="module-header"></view><view class="module-content tw-relative"><view class="module-title tw-text-base"><view wx:if="{{a}}" class="tw-text-lg tw-truncate">{{b}}</view><view wx:if="{{c}}" class="tw-text-xs tw-opacity-60 tw-truncate">{{d}}</view></view></view><view class="module-footer"></view></view>

@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "titleNView": false,
+  "usingComponents": {
+    "profile": "../../../components/did/modules/Profile/Profile",
+    "profile-editor": "../../../components/did/ProfileEditor",
+    "share-modal": "../../../components/did/ShareModal",
+    "theme-editor": "../../../components/did/ThemeEditor",
+    "module-config-modal": "../../../components/did/modules/ModuleConfigModal",
+    "profile-delete-modal": "../../../components/did/ProfileDeleteModal",
+    "metadata-config": "../../../components/did/modules/Metadata/Config",
+    "login-modal": "../loginModal",
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

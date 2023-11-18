@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "link": "./Link/View",
+    "story": "./Story/View",
+    "zhi-hu": "./Zhihu/View",
+    "xiao-hong-shu": "./Xiaohongshu/View",
+    "bilibili": "./Bilibili/View",
+    "weibo": "./Weibo/View",
+    "title": "./Title/View",
+    "achievement-collected": "./AchievementCollected/View",
+    "achievement-issued": "./AchievementIssued/View"
+  }
+}

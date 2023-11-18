@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "story": "./Story/Panel",
+    "link": "./Link/Panel",
+    "bilibili": "./Bilibili/Panel",
+    "weibo": "./Weibo/Panel",
+    "xiaohongshu": "./Xiaohongshu/Panel",
+    "zhihu": "./Zhihu/Panel",
+    "achievement-collected": "./AchievementCollected/Panel",
+    "achievement-issued": "./AchievementIssued/Panel"
+  }
+}

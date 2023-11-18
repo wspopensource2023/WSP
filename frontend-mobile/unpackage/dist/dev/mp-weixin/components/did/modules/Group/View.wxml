@@ -1,0 +1,1 @@
+<view><view wx:for="{{a}}" wx:for-item="item" wx:key="c" class="tw-cursor-default" bindtap="{{item.d}}"><slot name="{{item.a}}"></slot></view><module-panel-modal wx:if="{{c}}" class="r" u-r="ModulePanelModal" u-i="60f754b3-0" bind:__l="__l" u-p="{{c}}"></module-panel-modal></view>

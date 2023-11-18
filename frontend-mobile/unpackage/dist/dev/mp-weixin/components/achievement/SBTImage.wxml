@@ -1,0 +1,1 @@
+<view style="{{'width:' + d}}" class="tw-w-full tw-relative"><view class="tw-relative tw-flex tw-justify-center tw-items-center"><image style="{{'width:' + a + ';' + ('height:' + b)}}" class="tw-w-60 tw-h-60" src="{{c}}" alt="" /></view></view>

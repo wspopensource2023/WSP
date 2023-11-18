@@ -1,0 +1,181 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+:root {
+    --v-anchor-base: #1e5dff;
+    --v-primary-base: #1e5dff;
+    --v-primary-lighten5: #dce0ff;
+    --v-primary-lighten4: #bcc4ff;
+    --v-primary-lighten3: #9ba9ff;
+    --v-primary-lighten2: #798fff;
+    --v-primary-lighten1: #5475ff;
+    --v-primary-darken1: #0046e2;
+    --v-primary-darken2: #0030c5;
+    --v-primary-darken3: #001da9;
+    --v-primary-darken4: #000e8d;
+    --v-secondary-base: #15171c;
+    --v-secondary-lighten5: #888b91;
+    --v-secondary-lighten4: #6f7178;
+    --v-secondary-lighten3: #57595f;
+    --v-secondary-lighten2: #3f4147;
+    --v-secondary-lighten1: #292b31;
+    --v-secondary-darken1: #000001;
+    --v-secondary-darken2: #000000;
+    --v-secondary-darken3: #000000;
+    --v-secondary-darken4: #000000;
+    --v-accent-base: #0f1114;
+    --v-accent-lighten1: #090b0d;
+    --v-accent-lighten2: #040405;
+    --v-accent-lighten3: #15171c;
+    --v-accent-lighten4: #acb0bf;
+    --v-error-base: #ed4a4a;
+    --v-error-lighten5: #ffdacb;
+    --v-error-lighten4: #ffbdb0;
+    --v-error-lighten3: #ffa095;
+    --v-error-lighten2: #ff847b;
+    --v-error-lighten1: #ff6762;
+    --v-error-darken1: #cd2a33;
+    --v-error-darken2: #ae001e;
+    --v-error-darken3: #8e0008;
+    --v-error-darken4: #700000;
+    --v-info-base: #ffffff;
+    --v-info-lighten1: #a8aeba;
+    --v-info-lighten2: #656a75;
+    --v-info-lighten3: #535862;
+    --v-info-lighten4: #343840;
+    --v-info-lighten5: #292d33;
+    --v-success-base: #00b881;
+    --v-success-lighten5: #bcffff;
+    --v-success-lighten4: #9effee;
+    --v-success-lighten3: #7fffd2;
+    --v-success-lighten2: #60f1b6;
+    --v-success-lighten1: #3dd49b;
+    --v-success-darken1: #009c68;
+    --v-success-darken2: #00824f;
+    --v-success-darken3: #006738;
+    --v-success-darken4: #004e22;
+    --v-warning-base: #ff8800;
+    --v-warning-lighten5: #ffff9e;
+    --v-warning-lighten4: #fff782;
+    --v-warning-lighten3: #ffdb66;
+    --v-warning-lighten2: #ffbe4a;
+    --v-warning-lighten1: #ffa32c;
+    --v-warning-darken1: #df6e00;
+    --v-warning-darken2: #bf5400;
+    --v-warning-darken3: #a03b00;
+    --v-warning-darken4: #832100;
+    --v-disabled-base: #21252b;
+    --v-disabled-lighten1: #3b3f47;
+    --v-border-base: #1b1e24;
+    --v-border-lighten1: #afb4c7;
+    --v-border-lighten2: #384a91;
+    --v-highlight-base: #1e5dff;
+    --v-primary2-base: #1e5dff;
+    --v-primary2-lighten1: #5765ff;
+    --v-primary2-lighten2: #477dff;
+    --v-primary2-lighten3: #5789ff;
+    --v-background-base: #0f1114;
+    --v-background-darken1: #090b0d;
+    --v-background-darken2: #040405;
+    --v-background-lighten1: #15171c;
+    --v-background-lighten2: #1b1e24;
+    --v-background-lighten3: #21252b;
+    --v-background-lighten4: #292d33;
+    --v-text-base: #ffffff;
+    --v-text-darken1: #a8aeba;
+    --v-text-darken2: #535862;
+    --v-text-darken3: #343840;
+    --v-text-darken4: #292d33;
+    --v-textLink-base: #367cff;
+    --v-textLink-lighten1: #4b90ff;
+    --v-divider-base: #0f1114;
+    --v-divider-lighten1: #21252b;
+    --v-divider-lighten2: #292d33;
+    --v-btn-height: 40px;
+}
+
+/* :root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+}
+
+:root {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+}
+
+**/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    font-weight: normal;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--color-text);
+    background: var(--color-background);
+    transition: color 0.5s, background-color 0.5s;
+    line-height: 1.6;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.v-snackbar__wrapper {
+    min-height: 45px;
+}
+
+.v-overlay__scrim {
+    opacity: 0.6;
+}
+
+.bg-panel {
+    background: linear-gradient(rgb(37, 37, 37) 0%, rgb(24, 24, 24) 100%);
+}

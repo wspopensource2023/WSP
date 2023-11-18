@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "s-p-icon": "../../../base/SPIcon",
+    "text-box": "../../../base/TextBox",
+    "button-box": "../../../base/ButtonBox"
+  }
+}

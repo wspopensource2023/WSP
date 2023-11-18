@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "module-create-modal": "../ModuleCreateModal"
+  }
+}

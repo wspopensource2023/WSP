@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "titleNView": false,
+  "usingComponents": {
+    "profile": "../../../components/did/modules/Profile/Profile",
+    "share-modal": "../../../components/did/ShareModal"
+  }
+}

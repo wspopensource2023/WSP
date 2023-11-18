@@ -1,0 +1,62 @@
+/* 引入组件的暗黑主题 */
+@import "ant-design-vue/dist/antd.dark.css";
+@import "./base.css";
+
+#app {
+}
+
+html,
+body {
+  width: 100% !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#app {
+  font-family: "inter";
+  color: var(--v-info-base);
+  background: var(--v-background-base);
+}
+
+.tw-bg-panel {
+  background: rgb(27, 30, 36);
+}
+
+.tw-bg-surface {
+  background: rgb(var(--v-theme-surface));
+}
+
+.v-btn.v-size--small {
+  height: 32px !important;
+  line-height: initial;
+  padding: 6px 20px !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  border-radius: 6px !important;
+}
+
+.v-expansion-panel-title {
+  padding: 13px 24px;
+}
+
+.v-expansion-panel-title--active > .v-expansion-panel-title__overlay,
+.v-expansion-panel-title[aria-haspopup="menu"][aria-expanded="true"]
+  > .v-expansion-panel-title__overlay {
+  opacity: 0 !important;
+}
+
+.v-expansion-panel--rounded {
+  overflow: hidden;
+  border-radius: 0.5rem !important;
+}
+
+.v-expansion-panels .v-expansion-panel {
+  border: 1px solid transparent;
+}
+
+.v-expansion-panels .v-expansion-panel:hover {
+  border-color: 1px solid var(--v-text-base);
+}

@@ -1,0 +1,1 @@
+<view class="tw-py-4" style="border-radius:10px;background:rgba(255, 255, 255, 0.03)"><view class="tw-w-44 tw-h-44 tw-flex-shrink-0 tw-mx-auto"><image class="tw-w-full h-full" src="{{a}}" alt="{{b}}" /></view><view class="tw-w-28 tw-mt-2 tw-text-sm tw-font-bold tw-truncate">{{c}}</view><view class="tw-w-28 tw-mt-1 tw-text-sm tw-opacity-60 tw-truncate">{{d}}</view></view>

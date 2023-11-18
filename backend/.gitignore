@@ -1,0 +1,8 @@
+venv
+.idea
+.vscode
+*.pyc
+*.log
+_pycache_
+apiservice/apiservice.log
+__pycache__

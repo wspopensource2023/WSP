@@ -1,0 +1,1 @@
+<view style="{{'background-image:' + a}}" class="tw-relative tw-w-full tw-bg-no-repeat tw-flex tw-justify-center tw-items-center tw-bg-top tw-bg-cover"><view style="width:100%;height:0;padding:0;padding-bottom:50%"></view></view>

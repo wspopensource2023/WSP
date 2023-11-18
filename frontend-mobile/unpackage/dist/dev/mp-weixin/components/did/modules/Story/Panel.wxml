@@ -1,0 +1,1 @@
+<view class="tw-px-1"><view class="tw-text-xl tw-text-center">{{a}}</view><view class="tw-mb-2 tw-text-center tw-opacity-60">{{b}}</view><view class="tw-mb-1 tw-whitespace-pre-line tw-text-left">{{c}}</view></view>

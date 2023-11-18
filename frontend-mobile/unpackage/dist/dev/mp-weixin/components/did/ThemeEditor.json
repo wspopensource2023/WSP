@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "theme-text": "./ThemeText",
+    "theme-background": "./ThemeBackground"
+  }
+}

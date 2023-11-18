@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "module-config-header": "../ModuleConfigHeader",
+    "text-input": "../../../base/TextInput",
+    "icon-input": "../../../base/IconInput"
+  }
+}

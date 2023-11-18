@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "titleNView": false,
+  "usingComponents": {
+    "login-modal": "../loginModal",
+    "collect-modal": "../../../components/achievement/CollectModal"
+  }
+}

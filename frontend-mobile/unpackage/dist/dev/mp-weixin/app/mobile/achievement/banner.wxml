@@ -1,0 +1,1 @@
+<view class="tw-text-white tw-w-full" style="background:#121212;min-height:100%"><view bindtap="{{a}}" class="tw-fixed tw-top-3 tw-left-3" style="z-index:1"><image class="tw-w-8 tw-h-8 tw-mr-1" src="https://static.xxxxxx.com/mdi/af8ebf95055ff7a71f265a8bcaad2eec569d30d0eabe56239b03602f7da20e76" alt=""></image></view><view><rich-text nodes="{{b}}" /></view></view>

@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "module-zen": "./modules/ModuleZen",
+    "metadata-zen": "./modules/Metadata/Zen",
+    "hyh-dragable-list": "../hyh-dragable-list/hyh-dragable-list",
+    "module-create-modal": "./modules/ModuleCreateModal"
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <script src="https://static.xxxxxx.com/static/jquery-3.6.4.min.js"></script>
+        <script>
+            var coverSupport =
+                "CSS" in window &&
+                typeof CSS.supports === "function" &&
+                (CSS.supports("top: env(a)") ||
+                    CSS.supports("top: constant(a)"));
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                    (coverSupport ? ", viewport-fit=cover" : "") +
+                    '" />'
+            );
+        </script>
+        <title></title>
+        <!--preload-links-->
+        <!--app-context-->
+        <style>
+            html {
+                min-height: 100%;
+                background: linear-gradient(#1f1f1f, #0a0a0a);
+            }
+            uni-textarea {
+                font-size: inherit !important;
+            }
+            .uniui-clear {
+                color: rgba(255, 255, 255, 0.5) !important;
+            }
+            uni-button[disabled] {
+                opacity: 0.6;
+            }
+            .uni-easyinput__content.is-textarea {
+                padding: 10px;
+            }
+            .uni-video-video {
+                height: initial !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <!--app-html-->
+        </div>
+        <script type="module" src="/main.js"></script>
+    </body>
+    <link
+        rel="stylesheet"
+        lang="scss"
+        type="text/css"
+        href="/static/style.css"
+    />
+    <!-- <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script>
+        // VConsole will be exported to `window.VConsole` by default.
+        var vConsole = new window.VConsole();
+    </script> -->
+</html>

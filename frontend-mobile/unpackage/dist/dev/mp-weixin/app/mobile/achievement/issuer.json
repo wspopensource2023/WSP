@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "titleNView": false,
+  "usingComponents": {
+    "achievement-item": "../../../components/achievement/AchievementItem",
+    "campaign-item": "../../../components/achievement/CampaignItem",
+    "banner-view": "../../../components/base/BannerView"
+  }
+}

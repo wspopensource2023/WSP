@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "s-p-icon": "./SPIcon",
+    "icon-selector-modal": "./IconSelectorModal"
+  }
+}

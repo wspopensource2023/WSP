@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "titleNView": false,
+  "usingComponents": {
+    "text-input": "../../../components/base/TextInput",
+    "textarea-input": "../../../components/base/TextareaInput",
+    "avatar-uploader": "../../../components/base/AvatarUploader",
+    "banner-uploader": "../../../components/base/BannerUploader"
+  }
+}

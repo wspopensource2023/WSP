@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "link": "./Link/Zen",
+    "bilibili": "./Bilibili/Zen",
+    "story": "./Story/Zen",
+    "weibo": "./Weibo/Zen",
+    "zhi-hu": "./Zhihu/Zen",
+    "xiao-hong-shu": "./Xiaohongshu/Zen",
+    "title": "./Title/Zen",
+    "achievement-collected": "./AchievementCollected/Zen",
+    "achievement-issued": "./AchievementIssued/Zen"
+  }
+}

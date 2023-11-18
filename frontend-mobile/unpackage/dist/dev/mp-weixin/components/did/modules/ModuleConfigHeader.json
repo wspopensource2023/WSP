@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "s-p-icon": "../../base/SPIcon"
+  }
+}

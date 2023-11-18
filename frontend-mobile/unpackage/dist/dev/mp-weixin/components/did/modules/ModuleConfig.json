@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "title": "./Title/Config",
+    "link": "./Link/Config",
+    "story": "./Story/Config",
+    "zhi-hu": "./Zhihu/Config",
+    "xiao-hong-shu": "./Xiaohongshu/Config",
+    "bilibili": "./Bilibili/Config",
+    "weibo": "./Weibo/Config",
+    "achievement-collected": "./AchievementCollected/Config",
+    "achievement-issued": "./AchievementIssued/Config"
+  }
+}

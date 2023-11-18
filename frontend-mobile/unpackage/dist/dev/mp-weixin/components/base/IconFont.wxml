@@ -1,0 +1,1 @@
+<view style="{{'font-size:' + a + ';' + ('width:' + b) + ';' + ('height:' + c)}}" class="{{d}}"></view>

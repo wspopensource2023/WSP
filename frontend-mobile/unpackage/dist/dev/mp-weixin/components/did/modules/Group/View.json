@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "module-view": "../ModuleView",
+    "module-panel-modal": "../ModulePanelModal"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "app/mobile/login",
+    "app/mobile/achievement/banner",
+    "app/mobile/did/banner",
+    "app/mobile/user/me",
+    "app/mobile/user/edit",
+    "app/mobile/achievement/detail",
+    "app/mobile/achievement/issuer",
+    "app/mobile/achievement/list",
+    "app/mobile/did/list",
+    "app/mobile/did/edit",
+    "app/mobile/did/detail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#121212",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#fff",
+    "backgroundColor": "#121212",
+    "type": "transparent",
+    "blurEffect": "dark",
+    "list": [
+      {
+        "pagePath": "app/mobile/did/list",
+        "iconPath": "static/images/nav/profile.png",
+        "selectedIconPath": "static/images/nav/profile-selected.png",
+        "text": "身份"
+      },
+      {
+        "pagePath": "app/mobile/achievement/list",
+        "iconPath": "static/images/nav/achievement.png",
+        "selectedIconPath": "static/images/nav/achievement-selected.png",
+        "text": "成就"
+      },
+      {
+        "pagePath": "app/mobile/user/me",
+        "iconPath": "static/images/nav/mine.png",
+        "selectedIconPath": "static/images/nav/mine-selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "lazyCodeLoading": "requiredComponents",
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}
